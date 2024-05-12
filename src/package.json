@@ -9,11 +9,17 @@
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
-    "ejs": "^2.6.1",
-    "express": "~4.15.5",
-    "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11",
+    "ejs": "^3.1.7",
+    "express": "~4.17.3",
+    "morgan": "~1.9.1",
+    "pug": "3.0.1",
     "request": "^2.88.0",
-    "serve-favicon": "~2.4.5"
+    "serve-favicon": "~2.4.5",
+    "lodash": "4.17.21",
+    "json-schema": "0.4.0",
+    "kind-of": "6.0.3",
+    "qs": "6.5.3",
+    "mime": "1.4.1",
+    "pug-code-gen": "2.0.3"
   }
 }
