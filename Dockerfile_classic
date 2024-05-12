@@ -1,0 +1,9 @@
+FROM node:alpine
+ARG VERSION
+ENV APP_VER=production.${VERSION:-v1.0}
+RUN mkdir -p /var/node
+WORKDIR /var/node
+ADD src ./
+RUN npm install
+EXPOSE 3000
+ENTRYPOINT [ "./bin/www" ]
