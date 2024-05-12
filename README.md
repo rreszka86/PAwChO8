@@ -18,7 +18,7 @@ docker buildx build -f Dockerfile_classic -t rreszka/pawcho:lab8 --sbom=true --p
 
 ![High CVEs - screenshot](./preview/high-cves.png)
 
-With usage of command provided below, I could find versions of packages, that are no longer vulnerable:
+With usage of command provided below, I could find fixed versions of packages, being no longer vulnerable:
 
 ```sh
 docker scout cves --only-severity critical,high rreszka/pawcho:lab8
